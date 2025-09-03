@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  sampleapp:
+    build: ./SampleApp
+    ports:
+      - "8080:8080"
+    container_name: sampleapp
+
+  studentapp:
+    build: ./StudentApp
+    ports:
+      - "8081:8080"
+    container_name: studentapp

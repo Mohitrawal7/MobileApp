@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Students Form"
+        android:textSize="40dp"
+        android:layout_margin="12dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_name"
+        android:hint="Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_age"
+        android:hint="Age"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_math"
+        android:hint="Math Marks"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_science"
+        android:hint="Science Marks"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_english"
+        android:hint="English Marks"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_nepali"
+        android:hint="Nepali Marks"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/text_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grade: "
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_save"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Save"/>
+
+</LinearLayout>
